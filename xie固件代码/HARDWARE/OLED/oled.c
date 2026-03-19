@@ -3,8 +3,6 @@
 #include "oledfont.h"
 #include "delay.h"
 
-#include "RLY.h"
-
 /*****************���絥Ƭ�����******************
 											STM32
  * �ļ�			:	OLED��ʾ��c�ļ�                     
@@ -606,5 +604,4 @@ void OLED_ShowAutoPage(void)
 
     if(!g_oled_batch) OLED_Refresh();
 }
-
 
