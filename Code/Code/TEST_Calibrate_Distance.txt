@@ -1,0 +1,15 @@
+/**********************************
+ * Legacy note
+ **********************************/
+
+This project no longer uses the old ADC-based infrared distance sensor.
+Distance sensing has been migrated to the HC-SR04 ultrasonic module:
+
+- TRIG -> PA7
+- ECHO -> PA5
+
+Do not use the previous infrared calibration flow in this project.
+For current wiring and bring-up steps, see:
+
+- 硬件说明.md
+- 硬件调试检查清单.md
